@@ -21,7 +21,7 @@ _Bikcraft_</p>
 
 
 ## <b>Tecnologias / Ferramentas</b>
-![Figma](https://raw.githubusercontent.com/DiogoRealles/diogorealles/85a18e420b5b8f4e25f6411ff3e9fd7921419ab9/img/figma.svg) &nbsp;
+![Figma](https://raw.githubusercontent.com/DiogoRealles/diogorealles/develop/img/figma.svg) &nbsp;
 <br><br><br>
 
 
