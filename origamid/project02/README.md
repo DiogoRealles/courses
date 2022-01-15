@@ -20,9 +20,9 @@ _Bikcraft_</p>
 
 
 ## <b>Tecnologias / Ferramentas</b>
-![HTML](https://raw.githubusercontent.com/DiogoRealles/diogorealles/eb1eec37465b5ddb233faf78267940c4c01808eb/img/html.svg) &nbsp;
-![CSS](https://raw.githubusercontent.com/DiogoRealles/diogorealles/eb1eec37465b5ddb233faf78267940c4c01808eb/img/css.svg) &nbsp;
-![JS](https://raw.githubusercontent.com/DiogoRealles/diogorealles/eb1eec37465b5ddb233faf78267940c4c01808eb/img/js.svg) &nbsp;
+![HTML](https://raw.githubusercontent.com/DiogoRealles/diogorealles/develop/img/html.svg) &nbsp;
+![CSS](https://raw.githubusercontent.com/DiogoRealles/diogorealles/develop/img/css.svg) &nbsp;
+![JS](https://raw.githubusercontent.com/DiogoRealles/diogorealles/develop/img/js.svg) &nbsp;
 <br><br><br>
 
 
