@@ -5,9 +5,9 @@ Repositório de diversos cursos e projetos feitos na área de Front-end e UI Des
 <table>
   <thead>
     <tr>
-      <th>Curso</th>
+      <th>Curso / Projetos</th>
       <th>Descrição</th>
-      <th>Projetos</th>
+      <th>Ver mais</th>
     </tr>
   </thead>
 
@@ -47,30 +47,6 @@ Repositório de diversos cursos e projetos feitos na área de Front-end e UI Des
       </td>
       <td>
         <b>[Matheus Battisti](https://github.com/DiogoRealles/courses/tree/develop/hora-de-codar)</b><br>
-      </td>
-    </tr>
-    <tr>
-      <td>
-![FrontPUSH](https://raw.githubusercontent.com/DiogoRealles/diogorealles/85a18e420b5b8f4e25f6411ff3e9fd7921419ab9/img/frontpush.svg)
-      </td>
-      <td>
-        <b>[FrontPUSH](https://github.com/DiogoRealles/courses/tree/develop/frontpush)</b><br>
-        Curso online para entusiastas no front-end, conta com 3 minicursos: UI Design, Front-End e CSS Motion Design.
-      </td>
-      <td>
-        <b>[FrontPUSH](https://github.com/DiogoRealles/courses/tree/develop/frontpush)</b><br>
-      </td>
-    </tr>
-    <tr>
-      <td>
-![NodeJS - Matheus Battisti](https://raw.githubusercontent.com/DiogoRealles/diogorealles/eb1eec37465b5ddb233faf78267940c4c01808eb/img/udemy.svg)
-      </td>
-      <td>
-        <b>[NodeJS - Matheus Battisti](https://github.com/DiogoRealles/courses/tree/develop/udemy)</b><br>
-        Crie aplicações completas com Node.js, Express, MongoDB, MySQL, React.js, arquitetura MVC e muito mais!
-      </td>
-      <td>
-        <b>[NodeJS - Matheus Battisti](https://github.com/DiogoRealles/courses/tree/develop/udemy)</b><br>
       </td>
     </tr>
     <tr>
