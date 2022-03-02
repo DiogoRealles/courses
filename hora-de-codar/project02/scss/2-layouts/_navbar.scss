@@ -1,0 +1,34 @@
+@use '../1-bases/mixins';
+@use '../1-bases/variables';
+
+.navbar{
+  border-bottom: 1px solid variables.$grey;
+}
+#navbar a:hover, #navbar a.active{
+  color: variables.$grey;
+  border-bottom: 1px solid variables.$grey;
+}
+#navbar .navbar-brand:hover{
+  color: variables.$dark;
+  border-bottom: 0;
+}
+.navbar-brand{
+  display: flex;
+  align-items: center;
+}
+.navbar-brand img{
+  width: 40px;
+}
+.navbar-brand span{
+  font-weight: 700;
+  font-size: 1.5em;
+  margin-left: .5em;
+}
+#navbar-items .navbar-nav{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+#navbar-items .nav-item{
+  margin: 0 1em;
+}
