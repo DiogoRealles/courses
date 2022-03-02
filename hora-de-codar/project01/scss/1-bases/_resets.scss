@@ -1,0 +1,36 @@
+@use './variables';
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: variables.$type-1;
+}
+
+.primary-bg-color{
+  background: variables.$primary-bg-color;
+}
+
+.secondary-bg-color{
+  background: variables.$secondary-bg-color;
+}
+
+.light-bg-color{
+  background: variables.$light-bg-color;
+}
+
+.dark-bg-color{
+  background: variables.$dark-bg-color;
+}
+
+.primary-color{
+  color: variables.$secondary-bg-color;
+}
+
+.secondary-color{
+  color: variables.$secondary-color;
+}
+
+.light-color{
+  color: variables.$light-bg-color;
+}

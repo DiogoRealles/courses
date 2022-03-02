@@ -1,0 +1,36 @@
+@use '../1-bases/mixins';
+@use '../1-bases/variables';
+
+#bottom-banner{
+  background: variables.$dark-bg-color;
+  padding: 6em;
+  margin-bottom: 4em;
+  text-align: center;
+  
+  .offer-subtitle, h2{
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 1.5px;
+  }
+
+  .offer-desc{
+    font-size: 24px;
+  }
+
+  .btn{
+    margin: 2em;
+    font-weight: 700;
+    padding: 1em;
+  }
+
+  img{
+    max-width: 175px;
+  }
+  
+  @include mixins.responsive{
+    
+    h2{
+      font-size: 6em;
+    }
+  }
+}

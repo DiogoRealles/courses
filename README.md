@@ -39,6 +39,18 @@ Repositório de diversos cursos e projetos feitos na área de Front-end e UI Des
     </tr>
     <tr>
       <td>
+![Matheus Battisti](https://raw.githubusercontent.com/DiogoRealles/diogorealles/develop/img/hdc.svg)
+      </td>
+      <td>
+        <b>[Matheus Battisti](https://github.com/DiogoRealles/courses/tree/develop/hora-de-codar)</b><br>
+        Capacitar quem deseja ser desenvolvedor/programador para o mercado de trabalho.
+      </td>
+      <td>
+        <b>[Matheus Battisti](https://github.com/DiogoRealles/courses/tree/develop/hora-de-codar)</b><br>
+      </td>
+    </tr>
+    <tr>
+      <td>
 ![FrontPUSH](https://raw.githubusercontent.com/DiogoRealles/diogorealles/85a18e420b5b8f4e25f6411ff3e9fd7921419ab9/img/frontpush.svg)
       </td>
       <td>

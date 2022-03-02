@@ -1,0 +1,64 @@
+@use '../1-bases/mixins';
+@use '../1-bases/variables';
+
+#newsletter-container{
+  border-bottom: 1px solid variables.$secondary-color;
+  text-align: center;
+  padding: 20px;
+
+  #news-form{
+    width: 100%;
+    max-width: 600px;
+    border: 2px solid variables.$secondary-color;
+    border-radius: 4px;
+    padding: 4px 16px;
+    margin: 15px auto;
+
+    input{
+      background: transparent;
+      border: none;
+      color: variables.$light;
+
+      &:focus{
+        outline: none;
+        box-shadow: none;
+        border: none;
+      }
+
+      &::placeholder{
+        color: variables.$light;
+      }
+    }
+
+    i{
+      font-size: 1.5em;
+    }
+
+    .btn{
+      color: variables.$light;
+    }
+    
+    @include mixins.responsive{
+      width: 50%;
+      margin: 0;
+    }
+  }
+  
+  #social-container{
+    margin: 20px auto;
+    
+    a{
+      text-decoration: none;
+      color: variables.$secondary-color;
+      transition: all .3s ease-in-out;
+
+      &:hover{
+        color: var(--leather);
+      }
+    }
+
+    i{
+      font-size: 1.5em;
+    }
+  }
+}

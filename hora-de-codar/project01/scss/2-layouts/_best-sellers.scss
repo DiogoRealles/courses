@@ -1,0 +1,52 @@
+@use '../1-bases/mixins';
+@use '../1-bases/variables';
+
+#best-sellers{
+  padding: 4em 0;
+  
+  .row{
+    margin: 0;
+  }
+
+  .col-md-3{
+    padding: 0;
+  }
+
+  .title{
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 1em;
+    text-align: center;
+    letter-spacing: 1.5px;
+  }
+
+  .card{
+    text-align: center;
+    border-radius: 0;
+  }
+
+  .card img{
+    width: 140px;
+    margin: 2em auto;
+  }
+
+  .card .card-category{
+    font-size: 1em;
+  }
+
+  .card .card-text{
+    margin: 2em 0;
+    font-weight: 700;
+  }
+
+  @include mixins.responsive{
+    
+    .title{
+      text-align: left;
+      text-transform: uppercase;
+      font-weight: bolder;
+      font-size: 2.4em;
+      margin-bottom: 1em;
+    }
+  }
+}
