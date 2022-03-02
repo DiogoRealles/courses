@@ -1,7 +1,8 @@
 # <b>Hora de Codar - iMovi</b>
 
 ## <b>Visão Geral</b>
-Landing Page responsiva para uma imobiliária fictícia, desenvolvida com as technologias <b>Bootstrap 5</b>  e <b>SASS</b>.<br>
+Projeto do curso de <b>Bootstrap 5</b>, onde aplicamos as estruturas essenciais de grid, classes e helpers do framework. Além de englobar os conceitos de estruturação, técnicas de CSS.<br>
+Objetivo do projeto foi criar uma landing page responsiva para uma imobiliária fictícia, desenvolvida com as technologias <b>Bootstrap 5</b>  e <b>SASS</b>.<br>
 Aula ministrada pelo meu amigo <b>Matheus Battisti</b>.
 <br><br><br>
 
