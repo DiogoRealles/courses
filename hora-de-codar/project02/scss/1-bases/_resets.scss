@@ -1,0 +1,33 @@
+@use './variables';
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: variables.$type-1;
+}
+
+::selection{
+  color: variables.$white;
+  background: variables.$black;
+}
+
+.bg-primary-color{
+  background: variables.$white;
+}
+
+.bg-secondary-color{
+  background: variables.$light;
+}
+
+.bg-dark-color{
+  background: variables.$dark;
+}
+
+.primary-color{
+  color: variables.$dark;
+}
+
+.secondary-color{
+  color: variables.$grey;
+}

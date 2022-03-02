@@ -1,0 +1,25 @@
+@use '../1-bases/mixins';
+@use '../1-bases/variables';
+
+#info-content{
+  margin-bottom: 4em;
+  padding: 4em 1em;
+}
+#info-numbers{
+  margin: 1.5em 0;
+}
+#info-banner{
+  display: flex;
+  align-items: center;
+  margin-bottom: 2.5em;
+}
+#infor-numbers h3{
+  font-size: 3em;
+}
+
+@include mixins.responsive{
+  
+  #info-content{
+    padding: 3.5em;
+  }
+}

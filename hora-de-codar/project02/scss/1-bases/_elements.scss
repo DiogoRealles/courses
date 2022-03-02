@@ -1,0 +1,16 @@
+@use './variables';
+
+body{
+  // background: variables.$primary-bg-color;
+  // color: variables.$light;
+}
+
+.btn{
+  // background: transparent;
+  // border-color: variables.$secondary-bg-color;
+
+  &:hover{
+    // background: variables.$secondary-bg-color;
+    // border-color: variables.$secondary-bg-color;
+  }
+}

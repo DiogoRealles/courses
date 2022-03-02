@@ -1,0 +1,73 @@
+@use '../1-bases/mixins';
+@use '../1-bases/variables';
+
+#footer{
+  padding: 3em 2em;
+}
+#footer-top{
+  margin-bottom: 2em;
+}
+#footer-top,
+#footer-top i{
+  color: variables.$white;
+}
+#social-icons i{
+  margin-right: 1em;
+  font-size: 1.5em;
+  cursor: pointer;
+  transition: all .3s ease-in-out;
+}
+#social-icons i:hover{
+  color: variables.$grey;
+}
+#footer-details{
+  margin-bottom: 3em;
+}
+#news-container,
+#contact-container,
+#links-container{
+  padding: 0;
+  border: 0;
+  margin-block-end: 2em;
+}
+#footer-details h4{
+  color: variables.$white;
+  margin-bottom: 1.5em;
+}
+#news-container input{
+  border-radius: 0;
+  border: none;
+}
+#links-container li{
+  margin-bottom: .5em;
+}
+#contact-container a,
+#links-container a{
+  text-decoration: none;
+}
+#contact-container a:hover,
+#links-container a:hover{
+  color: variables.$white;
+}
+#footer-bottom{
+  border-top: 1px solid variables.$grey;
+  padding-top: 2em;
+}
+#footer-bottom i{
+  color: variables.$heart;
+}
+
+@include mixins.responsive{
+  
+  #news-container{
+    padding-right: 2em;
+  }
+  #links-container{
+    padding-left: 2em;
+  }
+  #contact-container{
+    padding: 0 2em;
+    border-left: 1px solid variables.$grey;
+    border-right: 1px solid variables.$grey;
+  }
+}
