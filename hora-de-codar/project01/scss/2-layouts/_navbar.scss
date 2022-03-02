@@ -1,0 +1,99 @@
+@use '../1-bases/mixins';
+@use '../1-bases/variables';
+
+#navbar {
+
+  .navbar-nav{
+    flex-direction: row;
+    justify-content: center;
+
+    li{
+      margin-left: 1em;
+      position: relative;
+    }
+  }
+
+  a, button{
+    color: variables.$light;
+  }
+
+  i{
+    font-size: 20px;
+  }
+
+  span{
+    position: absolute;
+    top: -8px;
+    right: -8px;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: variables.$emphasys;
+    text-align: center;
+  }
+
+  #bag-item span{
+    left: 20px;
+  }
+  
+  #navbar-items{
+    justify-content: space-between;
+
+    @include mixins.responsive{
+      min-width: 80%;
+      display: flex;
+    }
+  }
+  
+  .navbar-brand {
+    font-weight: 700;
+    width: 100%;
+    text-align: center;
+
+    @include mixins.responsive{
+      text-align: left;
+    }
+  }
+  
+  #search-form{
+    width: 100%;
+    margin: 2em 0;
+    border: 2px solid variables.$secondary-color;
+    border-radius: 4px;
+    padding: 4px 16px;
+
+    @include mixins.responsive{
+      width: 50%;
+      margin: 0;
+    }
+
+    input{
+      background: transparent;
+      border: none;
+      color: variables.$light;
+
+      &:focus{
+        outline: none;
+        box-shadow: none;
+        border: none;
+      }
+
+      &::placeholder{
+        color: variables.$light;
+      }
+    }
+  }
+}
+
+#bottom-navbar-container .container{
+  justify-content: flex-end;
+
+  a{
+    font-weight: 600;
+    color: variables.$light;
+  }
+
+  .navbar-toggler{
+    font-size: 1.5em;
+  }
+}

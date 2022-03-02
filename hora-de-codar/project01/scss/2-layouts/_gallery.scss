@@ -1,0 +1,42 @@
+@use '../1-bases/mixins';
+@use '../1-bases/variables';
+
+#gallery{
+
+  .image-container{
+    background-size: cover;
+    background-position: center;
+    height: 275px;
+    cursor: pointer;
+    transition: all .4s ease-in-out;
+    border: 3px solid variables.$dark-bg-color;
+
+    &:hover{
+      border-color: variables.$secondary-bg-color;
+    }
+  }
+
+  #insta1{
+    background-image: url('../img/insta1.jpg');
+  }
+
+  #insta2{
+    background-image: url('../img/insta2.jpg');
+  }
+
+  #insta3{
+    background-image: url('../img/insta3.jpg');
+  }
+
+  #insta4{
+    background-image: url('../img/insta4.jpg');
+  }
+
+  #insta5{
+    background-image: url('../img/insta5.jpg');
+  }
+
+  #insta6{
+    background-image: url('../img/insta6.jpg');
+  }
+}
