@@ -1,0 +1,41 @@
+@use './variables';
+
+html{
+  font-size: 14px;
+}
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: variables.$font-1;
+  font-size: 1rem;
+}
+
+::selection{
+  color: variables.$primary-color;
+  background: variables.$bg-color;
+}
+
+i{
+  color: variables.$primary-color;
+}
+
+a{
+  text-decoration: none;
+  color: variables.$bg-color;
+  transition: all .3s ease-in-out;
+
+  &:hover{
+    color: variables.$primary-color;
+  }
+}
+
+input{
+  border: none;
+  outline: none;
+}
+
+ul li{
+  list-style: none;
+}

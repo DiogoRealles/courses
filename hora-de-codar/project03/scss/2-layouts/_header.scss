@@ -1,0 +1,125 @@
+@use '../1-bases/base-mixins';
+@use '../1-bases/variables';
+@use './layouts-mixins';
+
+.header{
+  background: variables.$bg-color;
+
+  &__top{
+    background: variables.$secondary-bg-color;
+    color: variables.$light-color;
+
+    @include base-mixins.mobile{
+      display: none;
+    };
+
+    &-container{
+      @include layouts-mixins.center-content;
+      padding: .8rem 0;
+
+      span{
+        margin-right: 1rem;
+      }
+
+      i{
+        margin-right: .3rem;
+      }
+
+      a{
+        color: variables.$light-color;
+      }
+    }
+  }
+  
+  &__main{
+
+    &-container{
+      @include layouts-mixins.center-content;
+      padding: 1.3rem 0;
+
+      @include base-mixins.mobile{
+        flex-direction: column;
+        align-items: center;
+      }
+
+      a, span, i{
+        color: variables.$light-color;
+      }
+
+      #brand{
+        font-weight: 800;
+        font-size: 3rem;
+
+        i{
+          color: variables.$primary-color;
+          font-size: 2rem;
+        }
+      }
+
+      #search-form{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 45%;
+
+        @include base-mixins.mobile{
+          width: 100%;
+          margin: 2rem 0;
+        }
+
+        input{
+          height: 45px;
+        }
+
+        #search{
+          width: 60%;
+          @include layouts-mixins.rounded-input;
+        }
+      }
+    }
+  }
+  
+  &__actions-menu{
+    display: flex;
+    align-items: center;
+  }
+
+  &__wishlist-container,
+  &__cart-container{
+    @include layouts-mixins.header-icon;
+
+    @include base-mixins.mobile{
+      margin: 1rem;
+    }
+  }
+  
+  &__bottom{
+    background: variables.$light-color;
+    border-bottom: 2px solid variables.$section-bg-color;
+    border-top: 3px solid variables.$primary-color;
+
+    ul{
+      @include layouts-mixins.center-content;
+      justify-content: left;
+      padding: 1rem 0;
+
+      @include base-mixins.mobile{
+        display: none;
+      }
+
+      li{
+        margin-right: 1.3rem;
+
+        a{
+          color: variables.$link-color;
+          border-bottom: 2px solid transparent;
+
+          &:hover{
+            color: variables.$primary-color;
+            border-color: variables.$primary-color;
+          }
+        }
+      }
+    }
+  }
+}

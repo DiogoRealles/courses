@@ -1,0 +1,26 @@
+@use '../1-bases/variables';
+
+.btn{
+  padding: 8px 16px;
+  height: 45px;
+  color: variables.$light-color;
+  border-radius: 18px;
+  font-weight: 700;
+  text-transform: uppercase;
+  background: variables.$primary-color;
+  cursor: pointer;
+  outline: none;
+  border: 2px solid variables.$primary-color;
+  transition: all .3s ease-in-out;
+
+  &:hover{
+    background: variables.$light-color;
+    color: variables.$primary-color;
+  }
+
+  &-half{
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    text-transform: uppercase;
+  }
+}
