@@ -1,0 +1,74 @@
+@use '../1-bases/base-mixins';
+@use '../1-bases/variables';
+@use './layouts-mixins';
+
+.newsletter-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 3rem;
+  border-top: 2px solid variables.$section-bg-color;
+
+  @include base-mixins.mobile{
+    text-align: center;
+  }
+
+  h2{
+    font-size: 2rem;
+    color: variables.$dark-color;
+    margin-bottom: 2rem;
+
+    span{
+      font-size: 2rem;
+      font-weight: 700;
+      text-transform: uppercase;
+    }
+  }
+
+  form{
+    display: flex;
+    margin-bottom: 3rem;
+
+    @include base-mixins.mobile{
+      width: 100%;
+    }
+
+    input[type="email"]{
+      border: 1px solid variables.$section-bg-color;
+      @include layouts-mixins.rounded-input;
+
+      @include base-mixins.mobile{
+        width: 100%;
+      }
+    }
+  }
+
+  .social-media{
+    ul{
+      display: flex;
+      gap: 20px;
+
+      li{
+        padding: 8px;
+        cursor: pointer;
+        border: 1px solid variables.$section-bg-color;
+        transition: al .3 ease-in-out;
+        
+        &:hover{
+          color: variables.$primary-color;
+          background: variables.$section-bg-color;
+          
+          i{
+            color: variables.$primary-color;
+          }
+        }
+        
+        i{
+          color: variables.$dark-color;
+          font-size: 2rem;
+        }
+      }
+    }
+  }
+}

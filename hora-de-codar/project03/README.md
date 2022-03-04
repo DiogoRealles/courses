@@ -1,0 +1,35 @@
+# <b>Hora de Codar - Electrum</b>
+
+## <b>Visão Geral</b>
+Projeto do curso de <b>SASS</b>, onde aplicamos as estruturas essenciais de FLEXBOX, CLASSES e métodologia SMACSS para melhor organização de pastas. Além de englobar os conceitos de estruturação, técnicas de CSS / BEM.<br>
+Objetivo do projeto foi criar uma landing page responsiva para um e-commerce de eletrônicos fictício, desenvolvida com as technologias <b>SASS</b>  e métodologia <b>BEM</b>.<br>
+Aula ministrada pelo meu amigo <b>Matheus Battisti</b>.
+<br><br><br>
+
+
+## <b>Screenshots</b>
+![Screenshots](./img/screenshot-01.png)
+<p>
+
+_Electrum - SASS / BEM_</p>
+<br><br><br>
+
+
+## <b>Tecnologias / Ferramentas</b>
+![SASS](https://raw.githubusercontent.com/DiogoRealles/diogorealles/develop/img/sass.svg) &nbsp;
+<br><br><br>
+
+
+## <b>O Que Gostei de Aprender</b>
+Os layouts / Design são muito bonitos, os exercícios são na medida do que foi aprendido e vai subindo a dificuldade gradualmente.
+<br><br><br>
+
+
+## <b>Ver Projeto Online</b>
+<a href="https://www.realles.tk/projects/hora-de-codar/project03/" target="_blank"><img src="https://img.shields.io/badge/Site-Projeto 03-black?style=for-the-badge&logo=sass&logoColor=white"></a> &nbsp;
+<br><br><br>
+
+
+## <b>Agradecimentos</b>
+Agradecer ao meu amigo <b>[Matheus Battisti](https://www.rocketseat.com.br/)</b> pela oportunidade de aprender e práticar e desenvolver skills de Front-end.
+<br><br><br>
