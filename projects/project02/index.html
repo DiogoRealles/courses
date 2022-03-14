@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width"/>
+		<link rel="shortcut icon" href="./img/favicon.png" type="image/x-icon"/>
+		<link rel="preconnect" href="https://fonts.gstatic.com"/>
+		<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap" rel="stylesheet"/>
+    <link href="./css/style.min.css" rel="stylesheet" type="text/css"/>
+    <title>Game Tabuada</title>
+  </head>
+  <body>
+		<header class="header">
+			<h1 class="header__title">Game Tabuada</h1>
+		</header>
+
+		<main class="container">
+			<section class="quiz">
+				<p class="quiz__operation">
+					<span id="num1">8</span>x<span id="num2">8</span>
+				</p>
+				<input id="txtAnswer" class="quiz__txtAnswer" type="number" placeholder="Digite sua resposta" autofocus/>
+			</section>
+
+			<section class="answer">
+				<button id="btnAnswer" class="btn">Responder</button>
+
+				<p>Resposta está:
+					<span id="messageSpan"></span>
+				</p>
+
+				<div id="scoreboard-container">
+					<h2>Placar:</h2>
+					<span class="score-box">
+						<span id="x-scoreboard">&times;</span>:
+						<span id="scoreboard-1">0</span>
+					</span>
+					<span class="score-box">
+						<span id="o-scoreboard"></span>:
+						<span id="scoreboard-2">0</span>
+					</span>
+				</div>
+			</section>
+		</main>
+
+		<section class="tips">
+			<button id="btnOpenModal" class="btn">Ver tabuada</button>
+		</section>
+
+
+		<div class="modal-overlay">
+			<div class="modal-overlay__modal">
+				<img src="./img/img-01.jpg" alt="Tabuadas"/>
+				<button id="btnCloseModal" class="btnCloseModal">&times</button>
+			</div>
+		</div>
+
+		<footer>
+			<p>Desenvolvido por <span class="details">Diogo Realles</span> - <span id="footerYear">20xx</span></p>
+		</footer>
+    <script type="module" src="./js/script.js"></script>
+  </body>
+</html>
