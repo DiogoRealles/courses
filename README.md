@@ -51,14 +51,14 @@ Repositório de diversos cursos e projetos feitos na área de Front-end e UI Des
     </tr>
     <tr>
       <td>
-![UI Expert](https://raw.githubusercontent.com/DiogoRealles/diogorealles/eb1eec37465b5ddb233faf78267940c4c01808eb/img/uiexpert.svg)
+![Projects](https://raw.githubusercontent.com/DiogoRealles/diogorealles/develop/img/projects.svg)
       </td>
       <td>
-        <b>[UI Expert](https://github.com/DiogoRealles/courses/tree/develop/uiexpert)</b><br>
-        Curso de UI Design, passando por todos os processos e fundamentos do UI Design.
+        <b>[Projetos](https://github.com/DiogoRealles/courses/tree/develop/projects)</b><br>
+        Meus projetos pessoais, redesign de layouts.
       </td>
       <td>
-        <b>[UI Expert](https://github.com/DiogoRealles/courses/tree/develop/uiexpert)</b><br>
+        <b>[Projetos](https://github.com/DiogoRealles/courses/tree/develop/projects)</b><br>
       </td>
     </tr>
   </tbody>

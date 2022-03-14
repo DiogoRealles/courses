@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="utf-8"/>
+  <link rel="shortcut icon" href="./img/favicon.png" type="image/png"/>    
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+
+  <!-- SEO -->
+  <meta name="description" content="Anthem - by SoftwaRealles"/>
+  <meta name="keywords" content="Diogo Realles, Anthem, SoftwaRealles, Web Design, Front-End, FrontDelivery">
+  <meta name="author" content="Diogo Realles - SoftwaRealles"/>
+  <link rel="canonical" href="https://anthem.softwarealles.repl.co/"/>
+  <link rel="sitemap" type="application/xml" title="Sitemap" href="https://anthem.softwarealles.repl.co/sitemap.xml"/>
+  <meta name="robots" content="index, follow"/>
+  <meta name="owner" content="Anthem - Diogo Realles"/>
+  <meta name="copyright" content="anthem (c) 2021"/>
+  
+  <!-- Facebook -->
+  <meta property="og:url" content="https://anthem.softwarealles.repl.co/"/>
+  <meta property="og:title" content="Anthem - by SoftwaRealles"/>
+  <meta property="og:description" content="Anthem - by SoftwaRealles"/>
+  <meta property="og:type" content="website"/>
+  <meta property="og:site_name" content="Anthem - by SoftwaRealles"/>
+  <meta property="og:image" content="https://anthem.softwarealles.repl.co/img/cover.png"/>
+  <meta property="og:image:type" content="image/png"/>
+  <meta property="og:image:width" content="500"/>
+  <meta property="og:image:height" content="300"/>
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css"/>
+  <link rel="stylesheet" href="./css/style.min.css"/>
+  <script src="./js/script.js" type="module" defer></script>
+  <title>Anthem</title>
+</head>
+<body>
+  
+  <header data-js="navbar" class="header">
+    <div class="navbar">
+      <div class="container">
+        <div class="flex align-center justify-between">
+          <a href="./" class="navbar__brand"><img src="./img/logo.png" alt="Anthem"></a>
+          <i id="iconBars" class="bi bi-list"></i>
+          <nav id="nav" class="nav">
+            <i id="iconTimes" class="bi bi-x-lg"></i>
+            <ul class="nav__menu">
+              <li class="nav__item"><a href="./" class="nav__link active">Home</a></li>
+              <li class="nav__item"><a href="#news" class="nav__link">News</a></li>
+              <li class="nav__item"><a href="#strategy" class="nav__link">Strategy</a></li>
+              <li class="nav__item"><a href="#trailer" class="nav__link">Trailer</a></li>
+              <li class="nav__item"><a href="#contact" class="nav__link">Sign in</a></li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </div>
+
+    <div class="intro">
+      <img class="intro__logo" src="./img/logo.png" alt="Anthem">
+      <h1 class="intro__title information-text">Play Anthem now on PC, XBOX ONE, and PS4</h1>
+      <a href="#" class="btn btn-orange">Get Anthem</a>
+      <a href="https://www.youtube.com/watch?v=osX1BW71nyU" class="btn btn-outline" target="_blank">Watch the trailer <i class="bi bi-play-fill"></i></a>
+    </div>
+  </header>
+
+  <section id="news" class="news">
+    <div class="news__navbar">
+      <div class="container">
+        <ul class="news__menu flex justify-center wrap">
+          <li class="news__list active">
+            <a href="#" class="news__link">Lasts News</a>
+          </li>
+          <li class="news__list">
+            <a href="#" class="news__link">Updates</a>
+          </li>
+          <li class="news__list">
+            <a href="#" class="news__link">New Contents</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    
+    <div class="news__cards">
+      <div class="container">
+        <header class="news__title">Last News</header>
+  
+        <div class="flex wrap gap-2">
+          <div class="card">
+            <div class="card__top">
+              <img src="./img/news-01.jpg" alt="News"/>
+            </div>
+            <div class="card__body">
+              <h2 class="card__title">Tutorials</h2>
+              <p class="card__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero eligendi accusamus pariatur, autem obcaecati rem unde error ipsa expedita voluptatem.
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea, nihil! Fugiat et.
+              </p>
+              <a class="card__stretched" href="#"></a>
+            </div>
+          </div>
+          
+          <div class="card">
+            <div class="card__top">
+              <img src="./img/news-02.jpg" alt="News"/>
+            </div>
+            <div class="card__body">
+              <h2 class="card__title">Updates 1.7</h2>
+              <p class="card__text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veniam, incidunt mollitia? Iure ullam impedit cum? Autem maiores deserunt ducimus nostrum!</p>
+              <a class="card__stretched" href="#"></a>
+            </div>
+          </div>
+          
+          <div class="card">
+            <div class="card__top">
+              <picture>
+                  <source srcset="./img/news-03.jpg" media="(min-width: 800px)">
+                  <img src="./img/news-03.jpg" alt="IMG 2" />
+              </picture>
+            </div>
+            <div class="card__body">
+              <h2 class="card__title">Bonus 2021</h2>
+              <p class="card__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis maiores voluptatibus perferendis eum voluptatum aliquam ad libero cum vel unde!</p>
+              <a class="card__stretched" href="#"></a>
+            </div>
+          </div>          
+        </div>
+        <div class="btn_news flex justify-center">
+          <a href="#" class="btn btn-orange">More News</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="cta">
+    <div class="container">
+      <div class="cta__info">
+        <h1 class="news__title">face the cataclysm from august 6th</h1>
+        <p class="cta__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos tenetur alias deserunt ab ad excepturi vel nostrum corporis atque neque.</p>
+        <a href="#" class="btn btn-orange">More Info</a>
+      </div>
+    </div>
+  </section>
+
+  <section id="strategy" class="strategy">
+    <div class="strategy__cards">
+      <div class="container">
+        <header class="news__title">Player Strategy</header>
+  
+        <div class="flex wrap gap-2">
+          
+          <div class="card">
+            <div class="card__top">
+              <img src="./img/img-01.png" alt="Strategy"/>
+            </div>
+            <div class="card__body">
+              <h4 class="card__subtitle">Adventure in group</h4>
+              <h2 class="card__title">Win as a team</h2>
+              <p class="card__text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veniam, incidunt mollitia? Iure ullam impedit cum? Autem maiores deserunt ducimus nostrum!</p>
+              <a class="card__stretched" href="#"></a>
+            </div>
+          </div>
+          
+          <div class="card">
+            <div class="card__top">
+              <img src="./img/img-02.png" alt="Strategy"/>
+            </div>
+            <div class="card__body">
+              <h4 class="card__subtitle">Always a new danger</h4>
+              <h2 class="card__title">Arm yourself with spears</h2>
+              <p class="card__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis maiores voluptatibus perferendis eum voluptatum aliquam ad libero cum vel unde, consequuntur recusandae minima veniam eveniet laudantium consectetur aliquam</p>
+              <a class="card__stretched" href="#"></a>
+            </div>
+          </div>          
+        </div>
+        
+        <div class="btn_news flex justify-center">
+          <a href="#" class="btn btn-orange">More strategies</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="trailer" class="trailer">
+    <div class="container">
+      <div class="trailer__info">
+        <div class="flex flex-column align-center justify-center">
+          <a href="https://www.youtube.com/watch?v=osX1BW71nyU" target="_blank">
+            <i class="bi bi-play-circle trailer__icon"></i>
+          </a>
+          <p class="trailer__text text-center">Launch Trailer</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  
+  <section class="news">
+    
+    <div class="news__cards">
+      <div class="container">
+        <header class="news__title">Trailers</header>
+  
+        <div class="flex wrap gap-2">
+          <div class="card">
+            <div class="card__top">
+              <img src="./img/trailer-01.jpg" alt="Trailer"/>
+            </div>
+            <div class="card__body">
+              <h2 class="card__title text-center">Gameplay Revelation</h2>
+              <a class="card__stretched" href="#"></a>
+            </div>
+          </div>
+          
+          <div class="card">
+            <div class="card__top">
+              <img src="./img/trailer-02.jpg" alt="Trailer"/>
+            </div>
+            <div class="card__body">
+              <h2 class="card__title text-center">Teaser EA Play</h2>
+              <a class="card__stretched" href="#"></a>
+            </div>
+          </div>
+          
+          <div class="card">
+            <div class="card__top">
+              <img src="./img/trailer-03.jpg" alt="Trailer"/>
+            </div>
+            <div class="card__body">
+              <h2 class="card__title text-center">Anthem Developer Livestream - Legendary Missions</h2>
+              <a class="card__stretched" href="#"></a>
+            </div>
+          </div>          
+        </div>
+        <div class="btn_news flex justify-center">
+          <a href="#" class="btn btn-orange">More Trailers</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer id="contact" class="contact">
+    <div class="container">
+      <div class="footer__header">
+        <img class="footer__flag" src="./img/footer-01.png" alt="Flag"/>
+      </div>
+
+      <div class="flex wrap gap-2">
+        <div class="contact__info">
+          <h1 class="footer__title">Register to receive news from Anthem™</h1>
+          <h2 class="footer__subtitle">Win a game banner</h2>
+          <p class="footer__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe maiores nemo, voluptas corporis nobis in reiciendis ipsa optio laborum odit?
+          </p>
+        </div>
+  
+        <div class="contact__form">
+          <div data-js="form-login" class="form-login">
+            <form data-js="form" class="form" name="form" action="#" method="post">
+              <div class="form__group">
+                <label for="email" class="form__label">E-mail</label>
+                <input data-js="email" id="email" class="form__control" name="email" type="email" placeholder="example@example.com"/>
+              </div>
+              <div class="form__group">
+                <label for="password" class="form__label">Password</label>
+                <input data-js="password" id="password" class="form__control" name="password" type="password" placeholder="Enter your password"/>
+              </div>
+              <div class="form__group">
+                <input data-js="remember" id="remember" class="" name="remember" type="checkbox" checked/>
+                <label for="remember" class="form__label">Remember</label>
+                <a href="#" class="form__link">Forgot password</a>
+              </div>
+              <div class="form__group">
+                <button data-js="signin" class="btn btn-orange btn-footer" name="signin" type="submit">Sign in</button>
+              </div>
+            </form>
+          </div>
+  
+          <div data-js="feedback" class="feedback hide">
+            <h2 class="feedback__title">Message submit successfully!</h2>
+            <p class="feedback__subtitle">We will contact you as soon.</p>
+          </div>
+          
+          <div class="contact__group">
+            <p>
+              Don't have an account? <a href="#" class="form__link">Sign up</a>
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="footer__copy">
+        <p>Anthem™ &copy; <span data-js="year">0000</span> | Electronic Arts Inc.</p>
+        <p>Coder by <a class="footer__link" href="https://fb.com/softwarealles" target="_blank">Diogo Realles</a></p>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
