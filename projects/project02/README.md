@@ -33,5 +33,5 @@ Tenho muita satisfação desse projeto, pois foi um desafio aplicar os conceitos
 
 
 ## <b>Ver Projeto Online</b>
-<a href="https://www.realles.tk/projects/project02/" target="_blank"><img src="https://img.shields.io/badge/Site-Projeto 02-black?style=for-the-badge&logo=JavaScript&logoColor=white"></a> &nbsp;
+<a href="https://multiplication-game.softwarealles.repl.co/" target="_blank"><img src="https://img.shields.io/badge/Site-Projeto 02-black?style=for-the-badge&logo=JavaScript&logoColor=white"></a> &nbsp;
 <br><br><br>
