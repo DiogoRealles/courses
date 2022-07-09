@@ -1,0 +1,54 @@
+@use '../1-bases/variables';
+@use '../1-bases/mixins';
+
+.projects{
+  text-align: center;
+  padding-top: 5rem;
+  &__title{
+    color: variables.$primary;
+    margin-bottom: 3rem;
+  }
+  &__text{
+    margin-bottom: 5rem;
+  }
+  &__link{
+    font-weight: 700;
+    color: variables.$primary;
+  }
+  &__container{
+    display: flex;
+    justify-content: space-around;
+    max-width: 1440px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 5rem;
+  }
+  &__box{
+    flex: 1 1 20rem;
+    margin-left: 2.5rem;
+    margin-right: 2.5rem;
+    height: 30rem;
+    background-size: cover;
+    border-right: 4px solid variables.$primary;
+    border-bottom: 4px solid variables.$primary;
+  }
+  .project1{
+    background: url('../../img/image-01.png') no-repeat center/cover;
+  }
+  .project2{
+    background: url('../../img/image-02.png') no-repeat center/cover;
+  }
+  .project3{
+    background: url('../../img/image-03.png') no-repeat center/cover;
+  }
+  .project4{
+    background: url('../../img/image-04.png') no-repeat center/cover;
+  }
+  .project5{
+    background: url('../../img/image-05.png') no-repeat center/cover;
+  }
+  .project6{
+    background: url('../../img/image-06.png') no-repeat center/cover;
+  }
+}
+

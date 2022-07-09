@@ -1,0 +1,19 @@
+@use '../1-bases/variables';
+
+.about{
+  text-align: center;
+  background: variables.$primary;
+  color: variables.$light;
+  padding-top: 5rem;
+  height: 35rem;
+  &__title{
+    font-size: 3.2rem;
+    margin-bottom: 2rem;
+  }
+  &__text{
+    font-size: 1.6rem;
+    max-width: 65rem;
+    margin-right: auto;
+    margin-left: auto;
+  }
+}

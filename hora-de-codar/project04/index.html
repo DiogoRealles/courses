@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta name="description" content="Diogo Realles - Portfólio, Front-end, UI Designer">
+  <meta name="keywords" content="Diog Realles, Front-end, UI Design, Portfolio">
+  
+  <link rel="shortcut icon" href="./img/favicon.png" type="image/x-icon">
+  <link rel="preconnect" href="https://fonts.googleapis.com"/>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;600&family=Roboto:wght@300;500;700&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="./css/style.min.css"/>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css"/>
+
+  <script src="./js/script.js" defer></script>
+
+  <title>Diogo Realles - Front-end</title>
+</head>
+<body>
+  <header class="navbar">
+    <div class="container">
+      <a class="navbar__logo" href="./">Diogo Realles</a>
+
+      <nav class="nav">
+        <ul class="nav__menu">
+          <li class="nav__list"><a href="#home" class="nav__link">Home</a></li>
+          <li class="nav__list"><a href="#about" class="nav__link">Sobre</a></li>
+          <li class="nav__list"><a href="#projects" class="nav__link">Projetos</a></li>
+          <li class="nav__list"><a href="#contact" class="nav__link">Contato</a></li>
+        </ul>
+      </nav>
+      <button class="button-isOpen"><i class="bi bi-list"></i></button>
+    </div>
+  </header>
+
+  <main>
+    <div class="banner">
+      <div class="banner__info">
+        <h1 class="banner__title">Olá, eu sou Diogo Realles</h1>
+        <img src="./img/profile.jpg" alt="Banner" class="banner__image">
+        <p class="banner__text">O ninja da programação</p>
+      </div>
+    </div>
+
+    <section id="about" class="about">
+      <h2 class="about__title">Sobre o meu jeito ninja de ser</h2>
+      <p class="about__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque accusantium dolores repellat ducimus! Ea, eligendi nihil voluptas ducimus dignissimos odit.</p>
+    </section>
+
+    <section class="skills">
+      <div class="container">
+        <div class="skills__container">
+          <div class="skills__box">
+            <i class="bi bi-magic"></i>
+          </div>
+          <h3 class="skills__title">UI Design</h3>
+          <p class="skills__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus, quis!</p>
+          <p class="skills__subtitle">Subtitle</p>
+          <p class="skills__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus, quis!</p>
+          <p class="skills__subtitle">Subtitle</p>
+          <p class="skills__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus, quis!</p>
+        </div>
+        
+        <div class="skills__container divider">
+          <div class="skills__box">
+            <i class="bi bi-phone"></i>
+          </div>
+          <h3 class="skills__title">Mobile First</h3>
+          <p class="skills__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus, quis!</p>
+          <p class="skills__subtitle">Subtitle</p>
+          <p class="skills__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus, quis!</p>
+          <p class="skills__subtitle">Subtitle</p>
+          <p class="skills__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus, quis!</p>
+        </div>
+        
+        <div class="skills__container">
+          <div class="skills__box">
+            <i class="bi bi-laptop"></i>
+          </div>
+          <h3 class="skills__title">Front-end</h3>
+          <p class="skills__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus, quis!</p>
+          <p class="skills__subtitle">Subtitle</p>
+          <p class="skills__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus, quis!</p>
+          <p class="skills__subtitle">Subtitle</p>
+          <p class="skills__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus, quis!</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects" class="projects">
+      <h2 class="projects__title">Veja meus últimos projetos</h2>
+      <p class="projects__text">Aqui estão os meus trabalhos mais recentes, para ver todos <a href="" class="projects__link">Clique aqui.</a></p>
+
+      <div class="projects__container">
+        <div class="projects__box project1"></div>
+        <div class="projects__box project2"></div>
+        <div class="projects__box project3"></div>
+      </div>
+
+      <div class="projects__container">
+        <div class="projects__box project4"></div>
+        <div class="projects__box project5"></div>
+        <div class="projects__box project6"></div>
+      </div>
+    </section>
+
+    <footer id="contact" class="footer">
+      <h2 class="footer__title">Me mande uma mensagem</h2>
+      <p class="footer__text">Caso queira falar sobre algum projeto, me contratar para algum serviço, ou falar sobre ninjas...</p>
+      <i class="bi bi-phone"></i>
+
+      <form action="./" class="form">
+        <div class="form__group">
+          <label for="name" class="form__label">Name</label>
+          <input required type="text" class="form__control" name="name" id="name" placeholder="Nome">
+        </div>
+        <div class="form__group">
+          <label for="email" class="form__label">E-mail</label>
+          <input required type="email" class="form__control" name="email" id="email" placeholder="E-mail">
+        </div>
+        <div class="form__group">
+          <label for="message" class="form__label">Message</label>
+          <textarea required class="form__control" name="message" id="message" placeholder="Mensagem"></textarea>
+        </div>
+        <div class="form__group">
+          <button class="button" type="submit">Enviar</button>
+        </div>
+      </form>
+
+      <p class="footer__copy">Feito com <i class="bi bi-heart-fill"></i> por <a href="https://www.facebook.com/softwarealles" target="_blank" class="footer__link">Diogo Realles</a> | <span id="yearFooter">0000</span></p>
+    </footer>
+  </main>
+</body>
+</html>

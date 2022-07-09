@@ -1,0 +1,29 @@
+@use '../1-bases/variables';
+@use  '../1-bases/mixins';
+
+.banner{
+  height: 70vh;
+  background: linear-gradient(45deg, rgba(0, 0, 0, .3) 10%, rgba(0, 0, 0, .7) 100%), url('../../img/banner-02.png') no-repeat center/cover;
+  padding-top: 15vh;
+  &__info{
+    width: 40%;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+    color: variables.$light;
+    padding: 2rem;
+  }
+  &__title{
+    margin-bottom: 4rem;
+    font-size: 4rem;
+  }
+  &__image{
+    height: 12rem;
+    border-radius: 50%;
+    margin-inline: auto;
+    margin-bottom: 4rem;
+  }
+  &__text{
+    font-size: 2.4rem;
+  }
+}
