@@ -1,0 +1,68 @@
+@use '../1-bases/variables';
+
+.footer{
+  padding: 5rem 0;
+  background: variables.$primary;
+  color: variables.$light;
+  text-align: center;
+  &__title{
+    font-size: 2.2em;
+    margin-bottom: 2.4rem;
+  }
+  &__text{
+    font-size: 1.6rem;
+    max-width: 60rem;
+    margin: 2.4rem auto;
+  }
+  i{
+    font-size: 4rem;
+    margin: 2.4rem 0;
+    display: inline-block;
+  }
+  &__copy{
+    font-weight: 700;
+    i{
+      font-size: 1.8rem;
+      margin-inline: 1rem;
+    }
+  }
+}
+.form{
+  width: 40rem;
+  margin-left: auto;
+  margin-right: auto;
+  &__group{
+    margin-bottom: 1.6rem;
+  }
+  &__label{
+    display: block;
+    text-align: left;
+    margin-bottom: 0.8rem;
+    font-size: 1.6rem;
+    font-family: variables.$font-body;
+  }
+  &__control{
+    border: none;
+    padding: 1.5rem;
+    margin-bottom: 2rem;
+    width: 100%;
+    display: block;
+    border: 1px solid transparent;
+    outline: 1px solid transparent;
+    &:focus{
+      border: 1px solid variables.$dark;
+      outline: 1px solid variables.$dark;
+    }
+    &::placeholder{
+      font-family: variables.$font-body;
+      font-size: 1.4rem;
+    }
+  }
+  textarea{
+    resize: none;
+    height: 10rem;
+    &::placeholder{
+      font-family: variables.$font-body;
+    }
+  }
+}

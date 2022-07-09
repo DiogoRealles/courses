@@ -1,0 +1,17 @@
+@use '../1-bases/variables';
+
+.button{
+  display: block;
+  width: 100%;
+  padding: 1.6rem 2.4rem;
+  background: variables.$light;
+  font-weight: 70rem;
+  font-size: 1.8rem;
+  color: variables.$dark;
+  &:hover{
+    border: 2px solid variables.$dark;
+  }
+}
+.button-isOpen{
+  display: none;
+}

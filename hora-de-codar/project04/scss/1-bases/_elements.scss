@@ -1,0 +1,20 @@
+@use './variables';
+
+a{
+  text-decoration: none;
+  color: variables.$dark;
+  transition: all .3s ease-in-out;
+}
+ul, li{
+  list-style: none;
+}
+button{
+  cursor: pointer;
+  transition: all .3s ease-in-out;
+  border: 2px solid transparent;
+}
+img{
+  display: block;
+  max-width: 100%;
+  object-fit: cover;
+}

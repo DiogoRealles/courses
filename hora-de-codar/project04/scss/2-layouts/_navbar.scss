@@ -1,0 +1,29 @@
+@use '../1-bases/variables';
+@use '../1-bases/mixins';
+
+.navbar{
+  background: variables.$light;
+  padding: 2rem 0;
+  .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .nav{
+    &__menu{
+      display: flex;
+      gap: 2rem;
+    }
+    &__link{
+      font-family: variables.$font-title;
+      font-size: 1.8rem;
+      &:hover{
+        color: variables.$primary;
+      }
+    }
+  }
+  &__logo{
+    font-size: 3.2rem;
+    font-family: variables.$font-title;
+  }
+}

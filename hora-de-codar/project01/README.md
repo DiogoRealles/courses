@@ -11,7 +11,7 @@ Aula ministrada pelo meu amigo <b>Matheus Battisti</b>.
 ![Screenshots](./img/screenshot-01.png)
 <p>
 
-_Desafios_</p>
+_ExactTime_</p>
 <br><br><br>
 
 
